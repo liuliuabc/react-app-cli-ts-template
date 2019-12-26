@@ -1,4 +1,4 @@
-export default [{
+module.exports=[{
     type: 'input',
     message: '请输入项目名字',
     name: 'productName',
