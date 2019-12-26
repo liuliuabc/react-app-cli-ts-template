@@ -1,6 +1,6 @@
 {
-  "short_name": "<react-app-cli-projectName>",
-  "name": "<react-app-cli-projectName>",
+  "short_name": "<cli>projectName</cli>",
+  "name": "<cli>projectName</cli>",
   "icons": [
     {
       "src": "favicon.ico",
