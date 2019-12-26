@@ -1,6 +1,6 @@
 {
-  "short_name": "<cli>projectName</cli>",
-  "name": "<cli>projectName</cli>",
+  "short_name": "<cli>productName</cli>",
+  "name": "<cli>productName</cli>",
   "icons": [
     {
       "src": "favicon.ico",
