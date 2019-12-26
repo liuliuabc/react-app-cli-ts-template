@@ -1,0 +1,52 @@
+{
+  "extends": ["tslint:recommended"],
+  "rules": {
+    "radix": false,
+    "arrow-parens": false,
+    "no-empty-interface":false,
+    "no-empty-block":false,
+    "forin": false,
+    "interface-name": false,
+    "no-string-literal": false,
+    "object-literal-key-quotes": false,
+    "no-unused-expression":false,
+    "no-shadowed-variable": false,
+    "max-classes-per-file": false,
+    "object-literal-sort-keys":false,
+    "trailing-comma": false,
+    "no-empty":false,
+    "semicolon": [true, "always"],
+    "no-default-export": false,
+    "member-access": false,
+    "ordered-imports": false,
+    "import-sources-order": "any",
+    "named-imports-order": "any",
+    "interface-over-type-literal":false,
+    "jsx-no-lambda":false,
+    "variable-name": [
+      true,
+      "ban-keywords",
+      "check-format",
+      "allow-leading-underscore",
+      "allow-trailing-underscore",
+      "allow-pascal-case",
+      "allow-snake-case"
+    ],
+    "no-console": false,
+    "comment-format": false,
+    "no-angle-bracket-type-assertion": false,
+    "jsx-no-string-ref":false,
+    "prefer-for-of":false,
+    "eofline": false,
+    "member-ordering":false,
+    "only-arrow-functions":false,
+    "indent":[true, "spaces", 4],// 每行开始以4个空格符开始
+    "object-literal-shorthand":false
+  },
+  "linterOptions": {
+    "exclude": [
+      "node_modules/**/*.ts"
+    ]
+  },
+  "strict": false
+}
